@@ -6,7 +6,7 @@ import { AuthContext } from "./context/AuthProvider";
 import {setLocalStorage} from "./utils/localStorage"
 
 const App = () => {
-  // setLocalStorage();
+  setLocalStorage();
   const [user, setUser] = useState(null);
   const [error, setError] = useState(null);
   const [loggedInUserData, setLoggedInUserData] = useState(null);
